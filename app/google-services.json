@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541522708698",
+    "firebase_url": "https://arrendartv01.firebaseio.com",
+    "project_id": "arrendartv01",
+    "storage_bucket": "arrendartv01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541522708698:android:8d00c9b8865ad36e",
+        "android_client_info": {
+          "package_name": "com.miarrendart.arrendart_v01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541522708698-ot8j9o0i7fd8ghvat03i5v1ppdc46i7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFl5CGKuhEjMdI6a9NWLmSxxwR8tlbiYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541522708698-ot8j9o0i7fd8ghvat03i5v1ppdc46i7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<!-- Base application theme. -->
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSoftGray</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeMelon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="ThemeMelon2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#727272</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:textColorHint">#727272</item>
+        <item name="boxStrokeColor">#727272</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">#B62121</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#2196F3</item>
+    </style>
+
+    <style name="AlertDialogStyle2" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">#B62121</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.tool">
+        <item name="android:textColor">#fff</item>
+
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#2196F3</item>
+        <item name="android:textSize">12sp</item> </style>
+
+
+</resources>
+

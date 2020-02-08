@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ico2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Registrarse"
+                android:textColor="@color/colorSoftGray"
+                android:textSize="45dp"
+
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_email"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="E-mail"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="textEmailAddress"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_names"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Nombres"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_lastnames"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Apellidos"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_date"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Fecha de nacimiento"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_address"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Dirección"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_pass"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Contraseña"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="textPassword"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray"
+                app:errorTextAppearance="@style/error_appearance">
+
+                <EditText
+                    android:id="@+id/txt_rpass"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Confirmar Contraseña"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:textColorHint="@color/colorSoftGray"
+                    android:inputType="textPassword"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/colorSoftGray">
+
+                <EditText
+                    android:id="@+id/txt_phone"
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Teléfono"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/colorSoftGray"
+                    android:inputType="phone"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:buttonTint="@color/colorSoftGray" />
+
+                <TextView
+                    android:id="@+id/termines"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Acepto terminos y condiciones"
+                    android:textColor="@color/colorSoftGray"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_insert"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/ripple_contained"
+                android:text="Registrarse"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

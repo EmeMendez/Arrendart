@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NewHouse"
+    android:orientation="vertical"
+    android:background="#fff"
+
+    >
+
+    <include layout="@layout/app_bar_model"
+        />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:theme="@style/ThemeMelon2">
+
+                <EditText
+                    android:id="@+id/p_name"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:autofillHints=""
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:hint="Nombre"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp"
+
+                    android:textColor="#727272"
+                    android:theme="@style/ThemeMelon2" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeMelon2">
+
+                <EditText
+                    android:id="@+id/p_description"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:hint="Descripción"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp"
+                    android:textColor="#727272"
+                    android:theme="@style/ThemeMelon2"
+
+                    android:autofillHints="" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ciudad" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                >
+
+                <Spinner
+                    android:id="@+id/p_city"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localidad" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                >
+
+
+                <Spinner
+                    android:id="@+id/p_subcity"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/ThemeMelon2"
+                >
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Dirección"
+                    android:theme="@style/ThemeMelon2"
+                    android:textColor="#727272"
+                    android:paddingStart="15dp"
+                    android:layout_marginBottom="15dp"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precisar ubicación" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp"
+
+                >
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:theme="@style/ThemeMelon2"
+                    >
+                    <EditText
+                        android:id="@+id/p_latitude"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="Latitud"
+                        android:text="-72.16589336"
+                        android:textColor="#727272"
+                        android:paddingStart="15dp"
+                        android:theme="@style/ThemeMelon2"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:theme="@style/ThemeMelon2"
+
+                    >
+                    <EditText
+                        android:id="@+id/p_longitude"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="Longitud"
+                        android:text="-72.16589336"
+                        android:textColor="#727272"
+                        android:paddingStart="15dp"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/btn_map"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="Buscar"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/ripple_outline_white"
+                android:textColor="@color/colorPrimary"/>
+
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeMelon2">
+
+                <EditText
+                    android:id="@+id/p_surface"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:hint="Superficie en m2"
+                    android:inputType="number"
+                    android:paddingStart="15dp"
+                    android:text="120"
+                    android:textColor="#727272" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amoblado" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeMelon"
+                />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periodo arriendo" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp">
+
+
+                <Spinner
+                    android:id="@+id/p_period"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/ThemeMelon2"
+                >
+                <EditText
+                    android:id="@+id/p_price"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="Precio de Arriendo"
+                    android:text="350.000"
+                    android:textColor="#727272"
+                    android:paddingStart="15dp"
+                    android:layout_marginBottom="15dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continuar"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorSoftGray"
+                android:background="@drawable/ripple_outline"
+                android:layout_marginBottom="15dp"
+
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

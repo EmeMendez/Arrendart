@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_type"
+    android:gravity="center"
+   >
+
+    <ImageView
+        android:id="@+id/img_type"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_house" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione tipo de publiación" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_border"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_type"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_type"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="continuar"
+        android:textColor="#fff"
+
+        android:background="@drawable/ripple_outline"/>
+
+</LinearLayout>

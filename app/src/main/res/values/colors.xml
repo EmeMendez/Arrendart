@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#cc4930</color>
+    <color name="colorPrimaryDark">#A8220A</color>
+    <color name="colorAccent">#e2e3e3</color>
+    <color name="colorSoftGray">#e2e3e3</color>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#cc4930</color>
+    <color name="bg_slider_screen2">#3760ad</color>
+    <color name="bg_slider_screen3">#6E993C</color>
+    <color name="bg_slider_screen4">#E48134</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#AA1C09</color>
+    <color name="dot_inactive_screen2">#3765B8</color>
+    <color name="dot_inactive_screen3">#018A3F</color>
+    <color name="dot_inactive_screen4">#A54E16</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#F98672</color>
+    <color name="dot_active_screen2">#4785ec</color>
+    <color name="dot_active_screen3">#54B37D</color>
+    <color name="dot_active_screen4">#E99458</color>
+    <array name="array_dot_active">
+
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item>
+    </array>
+
+    <!-- Buttons background color-->
+    <color name="buttons">#c34b5c</color>
+
+    <!-- Favorite icon Star color-->
+    <color name="star_color">#F2B32a</color>
+
+    <color name="design_textinput_error_color_light"
+        tools:override="true">#fff</color>
+
+</resources>

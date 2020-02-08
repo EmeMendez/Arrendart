@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Drawer_account"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picid"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/defaultavatar"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/u_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Emelinda  Méndez tabilo"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/u_firstemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="emisoad22@gmail.com"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="18dp"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/custom_layout"
+        android:layout_margin="20dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información Personal"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"/>
+
+
+        <View
+            android:id="@+id/dline0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN DE CORREO"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/u_secondemail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="emisoad22@gmail.com"
+            android:layout_marginBottom="5dp"
+            />
+
+        <View
+            android:id="@+id/dline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTRASEÑA"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/u_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*********"
+            android:layout_marginBottom="5dp"/>
+
+        <View
+            android:id="@+id/dline2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/u_secondname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Emelinda del Carmen Méndez Tabilo"
+            android:layout_marginBottom="5dp"/>
+        <View
+            android:id="@+id/dline3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/u_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tarapaca #416"
+            android:layout_marginBottom="5dp"/>
+        <View
+            android:id="@+id/dline4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/u_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+56953548172"
+            android:layout_marginBottom="5dp"/>
+        <View
+            android:id="@+id/dline5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#D3D3D3"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
